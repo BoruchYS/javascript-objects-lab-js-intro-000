@@ -12,3 +12,13 @@ var recipes = {sugar: '1 cup',
           object[key] = value;
             return object
                              }
+function deleteFromObjectByKey (object, key) {
+
+var newObj = Object.assign({}, Object)
+
+
+delete newObj.key // true
+
+
+
+}
