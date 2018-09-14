@@ -8,5 +8,5 @@ var recipes = {sugar: '1 cup',
  function updateObjectWithKeyAndValue (object, key, value) {
        var newObj = object;
                  newObj[key] = value;
-                 return object
+                 return newObj
                }
