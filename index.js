@@ -14,7 +14,7 @@ var recipes = {sugar: '1 cup',
                              }
 function deleteFromObjectByKey (object, key) {
 
-var newObj = object;
+var newObj = {object};
 
 delete newObj.key; // true
 return newObj
