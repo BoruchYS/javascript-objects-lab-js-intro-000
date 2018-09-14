@@ -14,11 +14,8 @@ var recipes = {sugar: '1 cup',
                              }
 function deleteFromObjectByKey (object, key) {
 
-var newObj = Object.assign({}, object)
-
+var newObj = object;
 
 delete newObj.key // true
-
-
 
 }
